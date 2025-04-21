@@ -1,0 +1,16 @@
+CLASS PGM1{
+PROCEDURE NestedWhiles(){
+VAR J, K;
+WHILE J < 10 DO {
+K = 3;
+J = J + 1;
+PRINTNUMBER J;
+WHILE K > 0 DO {
+K = K - 1;
+PRINTNUMBER K;
+}
+}
+}
+}
+
+/* nested whiles, counts down from three ten times. */

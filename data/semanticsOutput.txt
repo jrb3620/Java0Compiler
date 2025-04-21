@@ -1,0 +1,29 @@
+call PrintString
+call GetAnInteger
+mov ax, [ReadInt]
+mov [N], ax
+mov ax, [N]
+mov [I], ax
+W1 NOP
+mov ax,[I]
+cmp ax,[lit1]
+JLE L1
+mov ax,[N]
+mul word [I]
+mov [T1], ax
+mov ax, [T1]
+mov [N], ax
+mov ax,[I]
+sub ax,[lit1]
+mov [T1], ax
+mov ax, [T1]
+mov [I], ax
+JMP W1
+L1 NOP
+mov ax, [N]
+call ConvertIntegerToString
+mov eax, 4
+mov ebx, 1
+mov ecx, Result
+mov edx, ResultEnd
+int 80h

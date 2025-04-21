@@ -1,0 +1,15 @@
+CLASS PGM1 {
+CONST M = 7, N = 85;
+VAR X, Y, Z, A;
+READ A;
+Y = M + 16;
+X = Y + A;
+Z = X + Y + N;
+PRINTNUMBER Y;
+PRINTNUMBER X;
+PRINTNUMBER Z;
+}
+
+/*
+a program that takes user input, runs some calculations, then outputs those calculations
+*/

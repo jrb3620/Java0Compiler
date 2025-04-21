@@ -1,0 +1,14 @@
+CLASS PGM1{
+PROCEDURE questionOne(){
+CONST c = 3;
+VAR a, Bob, Jane, b, ans;
+READ a;
+READ b;
+READ Bob;
+READ Jane;
+ans = a * ((Bob + Jane - 10) / 2 * 4) / (b + c);
+PRINTNUMBER ans;
+
+/* this program demonstrates order of operations and IO*/
+}
+}

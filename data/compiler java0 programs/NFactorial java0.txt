@@ -1,0 +1,12 @@
+CLASS PGM1{
+PROCEDURE NFactorial(){
+VAR N, I, ANSWER;
+READ N;
+I = N;
+WHILE I > 1 DO {
+N = N * I;
+I = I - 1;
+}
+PRINTNUMBER N;
+}
+}

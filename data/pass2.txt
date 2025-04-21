@@ -1,0 +1,9 @@
+0 PGM1 <PROGRAM NAME> Null 0 CS
+1 NFactorial <PROCEDURE NAME> Null 0 CS
+2 N Var Null 0 DS
+3 I Var Null 2 DS
+4 ANSWER Var Null 4 DS
+5 1 NumericLiteral 1 6 DS
+6 T1 Var Null 8 DS
+6 T2 Var Null 10 DS
+6 T3 Var Null 12 DS

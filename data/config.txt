@@ -1,0 +1,10 @@
+C:\Users\jonat\Documents\data\pass1.txt
+C:\Users\jonat\Documents\data\pass2.txt
+C:\Users\jonat\Documents\data\syntaxOutput.txt
+C:\Users\jonat\Documents\data\semanticsOutput.txt
+C:\Users\jonat\Documents\data\java0.txt
+C:\Users\jonat\Documents\data\assemblyText1.txt
+C:\Users\jonat\Documents\data\assemblyText2.txt
+C:\Users\jonat\Documents\data\assemblyText3.txt
+C:\Users\jonat\Documents\data\assemblyText4.txt
+C:\Users\jonat\Documents\data\finalProgram.asm

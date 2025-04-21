@@ -1,0 +1,9 @@
+; Start of user variable area    ----------------------------------------------
+
+section	.bss		;used to declare uninitialized variables
+
+	TempChar        RESB    1              ;temp space for use by GetNextChar
+	testchar        RESB    1	
+	ReadInt         RESW    1              ;Temporary storage GetAnInteger.	
+	tempint         RESW	1              ;Used in converting to base ten.
+	negflag         RESB    1              ;P=positive, N=negative	

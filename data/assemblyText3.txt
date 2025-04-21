@@ -1,0 +1,7 @@
+	global _start
+section .text
+
+_start:	nop
+	; prompt user for positive number	
+
+Again:

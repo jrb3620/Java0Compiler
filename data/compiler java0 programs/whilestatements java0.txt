@@ -1,0 +1,9 @@
+CLASS PGM1{
+PROCEDURE WHILES(){
+VAR J, K;
+WHILE J < 10 DO {
+J = J + 1;
+PRINTNUMBER J;
+}
+}
+}
