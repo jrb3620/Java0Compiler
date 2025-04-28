@@ -1,6 +1,6 @@
 C++ Assembler, Interpreter and Compiler for “Java0” language 
-• Developed a “Java0” language translator from scratch using C++ 
-• Implemented knowledge of symbol tables, lexical scanning, object code generation and storage allocation to convert code 
+Developed a “Java0” language translator from scratch using C++
+Implemented knowledge of symbol tables, lexical scanning, object code generation and storage allocation to convert code 
 to machine language. 
 
 Translator successfully implements:
