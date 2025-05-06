@@ -26,6 +26,7 @@ section .data		;used to declare constants
 	num		times 6 db 'ABCDEF'
 	numEnd		equ	$-num
 lit10 DW 10
+lit3 DW 3
 lit1 DW 1
 lit0 DW 0
 ; Start of user variable area    ----------------------------------------------
@@ -53,7 +54,7 @@ W1 NOP
 mov ax,[J]
 cmp ax,[lit10]
 JGE L1
-mov ax, [lit10]
+mov ax, [lit3]
 mov [K], ax
 mov ax,[J]
 add ax,[lit1]
